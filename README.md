@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Social_Media_App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Social Media Project
 
-## Available Scripts
+A social media project built using JavaScript, React.js, Node.js, MySql, and Express.js. that allows users to connect, share content, and interact with each other.
 
-In the project directory, you can run:
+## Table of Contents
+  - Introduction
+  - Features
+    a) User Authentication
+    b) User Profiles
+    c) Posts
+    d) Social Interactions
+    e) Privacy Settings
+- Set up the database
+- Tables
+- Controllers
+- routes
+- Start the server and client
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The social media project is a platform that enables users to create profiles, share posts, follow other users, like and comment on posts, and engage in various social interactions. 
+The project aims to provide a user-friendly and intuitive social media experience.
+The project should include features such as User Registration, User Profile, Post Creation, Likes and Comments and Dark Theme Light Theme functionalities. 
+The user interface should be user-friendly and easy to navigate, with clear labels and intuitive icons.
+The main purpose of this Project is to Enable users to create and publish posts with text Or images.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- User Authentication:
+  - User registration and login
+  - Password encryption and security
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User Profiles:
+  - Create and customize user profiles
+  - Update profile information and profile picture
+  - View other users' profiles
 
-### `npm run build`
+- Posts:
+  - Create, edit, and delete posts
+  - Like and comment on posts
+  - Share posts with other users
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Social Interactions:
+  - Follow and unfollow other users
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Privacy Settings:
+  - Control visibility of profile and posts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+ Set up the database:
+-I use SQL Database in this project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tables:
+ - Comments
+ - likes
+ - posts
+ - Relationships
+ - user
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Controllers
+- auth
+- comments
+- likes
+- posts
+- relationship
+- user
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the server and client:
+- In the `server` directory, run:
+  ```
+  npm start
+  ```
+- In the `client` directory, run:
+  ```
+  npm start
+  ```
